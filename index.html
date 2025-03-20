@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determinante de una Matriz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Calculadora de Determinantes</h2>
+    <label for="size">Tamaño de la matriz: </label>
+    <input type="number" id="size" min="2" max="5" value="3">
+    <button onclick="crearMatriz()">Generar Matriz</button>
+
+    <div id="matriz-container" class="container"></div>
+    <button onclick="calcularDeterminante()">Calcular Determinante</button>
+
+    <div id="resultado"></div>
+    <div id="pasos" class="pasos"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
